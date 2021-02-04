@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">GoFlight</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="google_maps_key">AIzaSyBuxXjY44vp0btcNEFXqzVNmnqgnm1sfxk</string>
+    <string name="title_activity_login1">Sign in</string>
+    <string name="facebook_app_id">653599731696319</string>
+    <string name="fb_login_protocol_scheme">fb653599731696319</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="draweropen_desc">open</string>
+    <string name="drawerclose_desc">close</string>
+
+    <string name="alertmsghint">what\'s going on?(optional)</string>
+    <string name="searchButtonText">Search</string>
+
+    <string name="aboutus1">We are here for Your Safety and Security Suggest us Your new Idea for Improvements...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+    <string name="appwebsite">http://192.168.2.57</string>
+    <string name="privacypolicylink">http://192.168.2.57/sitepolicy/</string>
+    <string name="privacytextstring"><u>Privacy Policy</u></string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="title_app_update_alert">Application update</string>
+    <string name="msg_app_update_alert">Application update is required for app to work properly, please update application.</string>
+    <string name="action_update">Update</string>
+
+    <string name="title_permission_denied">Permission denied</string>
+    <string name="btn_i_am_sure">I\'m sure</string>
+    <string name="btn_retry">Re-Try</string>
+    <string name="url_airports">https://raw.githubusercontent.com/mwgg/Airports/master/airports.json</string>
+
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_Add">Add</string>
+    <string name="action_Next">Next</string>
+    <string name="action_retry">Retry</string>
+    <string name="btn_login_again">Login Again</string>
+    <string name="action_save">Save</string>
+
+
+    <string name="logout">Logout</string>
+    <string name="msg_logout_confirmation">Are you sure?</string>
+    <string name="msg_network_error">Network Error!</string>
+    <string name="msg_server_error">Server Error!</string>
+    <string name="phone_text">+1 514-575-5625</string>
+    <string name="email_text">goflight@gmail.com</string>
+    <string name="website">https://goflightinfo.000webhostapp.com/</string>
+    <string name="update">Update</string>
+    <string name="database_preference">GOFLIGHT</string>
+
+
+</resources>

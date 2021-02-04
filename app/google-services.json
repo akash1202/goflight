@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600590602431",
+    "project_id": "goflight-b5c8d",
+    "storage_bucket": "goflight-b5c8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600590602431:android:f1d1beb82f64a2122b760a",
+        "android_client_info": {
+          "package_name": "ca.cegepgim.goflight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600590602431-uq6d600rd987u0g3jfoe0lisghu8f17l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMY6qWP-O50x0Z4HUTt1Q314n-1yOhdpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600590602431-uq6d600rd987u0g3jfoe0lisghu8f17l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
