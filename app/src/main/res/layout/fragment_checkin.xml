@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".CheckInFragment"
-    android:layout_height="match_parent">
-    <TextView
-        android:text="this is a checkin fragment"
-        android:layout_width="match_parent"
-        android:gravity="center"
-        android:layout_height="wrap_content"/>
+    android:orientation="vertical"
+    tools:context=".CheckInFragment">
 
+    <EditText
+        android:id="@+id/payingAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Amount(CAD)"
+        android:text="" />
+
+    <Button
+        android:id="@+id/payNowButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pay Now" />
+    <TextView
+        android:id="@+id/paymentConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        />
 </LinearLayout>

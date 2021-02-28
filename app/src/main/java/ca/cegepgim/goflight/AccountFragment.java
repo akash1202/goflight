@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -22,6 +23,7 @@ public class AccountFragment extends Fragment {
     private String PREFRENCENAME = "";
     SharedPreferences.Editor editor;
     TextView userEmailText;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -34,15 +36,20 @@ public class AccountFragment extends Fragment {
         PREFRENCENAME=getString(R.string.database_preference);
         String userEmail = sharedPreferences.getString("userEmail", "Justin Trudeau");
         userEmailText.setText(userEmail);
+
+
         logoutButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                FirebaseAuth.getInstance().signOut();
-                Toast.makeText(getActivity(), "Logged out Successfully!!!", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(getActivity(), LoginActivity.class));
-                getActivity().finish();
+//                FirebaseAuth.getInstance().signOut();
+//                Toast.makeText(getActivity(), "Logged out Successfully!!!", Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(getActivity(), LoginActivity.class));
+//                getActivity().finish();
             }
         });
+
+
+
         return view;
     }
 }

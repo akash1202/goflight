@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bottomNavigationView = findViewById(R.id.bottomNavigationBar);
-        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new AccountFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer, new HomeFragment()).commit();
         // tv1=findViewById(R.id.textView);
         // tv1.setText(tv1.getText().toString()+FirebaseAuth.getInstance().getCurrentUser().getEmail());
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                         selectedFragment = new HomeFragment();
                         break;
                     case R.id.nav_book:
-                        selectedFragment = new BookFragment() ;
+                        selectedFragment = new BookFragment();
                         break;
                     case R.id.nav_mytrips:
                         selectedFragment = new MyTripsFragment();

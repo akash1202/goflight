@@ -15,13 +15,13 @@ import javax.inject.Singleton;
 import ca.cegepgim.goflight.model.Setting;
 import timber.log.Timber;
 
-@Singleton
+//@Singleton
 public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
 
     public static final int DATABASE_VERSION = 1;
     public static final String DATABASE_NAME = "goflight.db";
 
-    @Inject
+    //@Inject
     public DatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }

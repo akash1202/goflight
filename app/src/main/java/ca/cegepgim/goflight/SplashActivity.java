@@ -26,13 +26,13 @@ public class SplashActivity extends AppCompatActivity{
         editor = sharedPreferences.edit();
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
-        finish();
+       // finish();
     }
 
 
     @Override
     protected void onResume() {
         super.onResume();
-        splashView = (FitWindowsFrameLayout) findViewById(R.id.splashView);
+       // splashView = findViewById(R.id.splashView);
     }
 }

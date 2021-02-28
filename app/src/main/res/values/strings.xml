@@ -115,6 +115,7 @@
     <string name="website">https://goflightinfo.000webhostapp.com/</string>
     <string name="update">Update</string>
     <string name="database_preference">GOFLIGHT</string>
+    <string name="paynow">Pay Now</string>
 
 
 </resources>
